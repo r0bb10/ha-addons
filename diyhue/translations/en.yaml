@@ -1,0 +1,22 @@
+---
+configuration:
+  ssl:
+    name: SSL
+    description: >-
+      Enables/Disables SSL (HTTPS) on the web interface.
+  certfile:
+    name: Certificate file
+    description: >-
+      The certificate file to use for SSL. Note that this file must
+      exist in the /ssl/ folder.
+  keyfile:
+    name: Private key file
+    description: >-
+      The private key file to use for SSL. Note that this file must
+      exist in the /ssl/ folder.
+network:
+  80/tcp: Hue API
+  443/tcp: Hue API SSL
+  1900/udp: ssdp Discover
+  1982/udp: Yeelight detection
+  2100/udp: Hue Entertainment
