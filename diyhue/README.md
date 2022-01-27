@@ -1,11 +1,6 @@
 <div align="center">
 <img src="https://github.com/MaxBec/hassio-diyHue/blob/master/diyhue/logo.png">
 <h1>Home Assistant Add-on: diyHue</h1>
-[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 <br>
 <p>Run <a href="https://diyhue.org">diyHue</a> as a Home Assistant Add-on</p>
 </div>
